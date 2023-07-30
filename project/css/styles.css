@@ -1,0 +1,120 @@
+body {
+    background-color: #CCD5AE;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Markazi Text', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+}
+nav {
+    background-color: #494949;
+    border-radius: 4px;
+    margin: 18px;
+    padding: 1px;
+    
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    
+    
+}
+
+nav li {
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    
+    
+}
+
+.nav_links {
+    color: blanchedalmond;
+    font-weight: 700;
+    margin-right: 16px;
+    text-decoration: none;
+   transition: all 0.3s ease 0s;
+}  
+
+.nav_links:hover {
+    color: darkgreen;
+}
+
+section {
+    display: flex;
+}
+.banner {
+    color: white;
+    background-image: url("banner.jpeg");
+    border-radius: 10px;
+    margin-left: 17px;
+    margin-right: 17px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+main img {
+    width: 170px;
+}
+.main-container {
+    padding-left: 40px;
+}
+.container {
+    flex-direction: row;
+    margin-right: 60px;
+    text-align: center;
+    background-color: #E9EDC9;
+    border-radius: 20px;
+    margin-top: 40px;
+    
+}
+.container:hover{
+    background-color: #FAEDCD;
+}
+
+article {
+    flex: 1;
+    
+}
+
+footer {
+    display: flex;
+    
+    
+
+}
+footer img {
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.copyr {
+    margin-top: 50px;
+    margin-right: 180px;
+    
+}
+
+footer div {
+    flex: 1;
+}
